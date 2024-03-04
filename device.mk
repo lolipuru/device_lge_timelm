@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lge/betalm
+DEVICE_PATH := device/lge/timelm
 
 # Inherit from common tree
-$(call inherit-product, device/lge/sm8150-common/sm8150.mk)
+$(call inherit-product, device/lge/sm8250-common/sm8250.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -62,11 +62,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.hifi_sensors.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.hifi_sensors.xml
 
 # Shipping API Level
-PRODUCT_SHIPPING_API_LEVEL := 28
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/lge/betalm/betalm-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/timelm/timelm-vendor.mk)

@@ -4,16 +4,16 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lge/betalm
+DEVICE_PATH := device/lge/timelm
 
 # inherit from common tree
--include device/lge/sm8150-common/BoardConfigCommon.mk
+-include device/lge/sm8250-common/BoardConfigCommon.mk
 
 # Display
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/lineageos_beta_defconfig
+TARGET_KERNEL_CONFIG := vendor/timelm-perf_defconfig
 
 # Platform
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
@@ -29,4 +29,4 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
 VENDOR_SECURITY_PATCH := 2022-11-01
 
 # inherit from the proprietary version
--include vendor/lge/betalm/BoardConfigVendor.mk
+-include vendor/lge/timelm/BoardConfigVendor.mk

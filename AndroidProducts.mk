@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_betalm.mk
+    $(LOCAL_DIR)/lineage_timelm.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_betalm-eng \
-    lineage_betalm-user \
-    lineage_betalm-userdebug
+    lineage_timelm-eng \
+    lineage_timelm-user \
+    lineage_timelm-userdebug
