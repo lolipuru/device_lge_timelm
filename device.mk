@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/keylayout/Vendor_1004_Product_637a.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_1004_Product_637a.kl
 
 # Lights
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.lge
 
 # Media
