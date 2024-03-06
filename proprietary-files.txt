@@ -1,3 +1,6 @@
+## All unpinned blobs are from G810EA40a
+## betalm-user 12 SKQ1.211103.001 2234515404aca release-keys
+
 # ACDBDATA
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/Codec_cal.acdb
