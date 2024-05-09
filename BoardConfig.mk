@@ -13,7 +13,7 @@ DEVICE_PATH := device/lge/betalm
 TARGET_SCREEN_DENSITY := 420
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/betalm-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/lineageos_beta_defconfig
 
 # Platform
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
