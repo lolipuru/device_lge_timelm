@@ -463,7 +463,6 @@ vendor/lib/libarcsoft_object_tracking.so
 vendor/lib/libarcsoft_picselfie_algorithm.so
 vendor/lib/libarcsoft_singlecam_portrait_lighting.so
 vendor/lib/libbwfocuspeaking.so
-vendor/lib/libc++_shared.so
 vendor/lib/libc++_shared_snpe.so
 vendor/lib/libcamera_nn_stub.so
 vendor/lib/libcamxfdalgo.so
@@ -676,7 +675,6 @@ vendor/lib64/libarcsoft_object_tracking.so
 vendor/lib64/libarcsoft_picselfie_algorithm.so
 vendor/lib64/libarcsoft_singlecam_portrait_lighting.so
 vendor/lib64/libbwfocuspeaking.so
-vendor/lib64/libc++_shared.so
 vendor/lib64/libc++_shared_snpe.so
 vendor/lib64/libcamera_nn_stub.so
 vendor/lib64/libcamxfdalgo.so
